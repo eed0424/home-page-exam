@@ -1,0 +1,173 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* More modern font */
+    background-color: #f0f2f5; /* Light grey background */
+    color: #333; /* Darker text for readability */
+}
+
+/* Navbar Styling */
+.navbar {
+    border-bottom: 3px solid #dc3545; /* Red border for accent */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff !important; /* Ensure brand name is white */
+}
+
+.navbar-brand img {
+    border-radius: 50%; /* Make the logo round */
+    border: 2px solid #fff; /* White border around logo */
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important; /* Light text for links */
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc3545 !important; /* Red on hover */
+}
+
+.navbar-nav .nav-link.active {
+    color: #dc3545 !important;
+    font-weight: 600;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1500x800/2C3E50/FFFFFF?text=Gundam+Hero+Image') no-repeat center center; /* Dark overlay + placeholder image */
+    background-size: cover;
+    height: 500px; /* Adjust height as needed */
+    position: relative;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p.lead {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.hero-section .btn {
+    border-radius: 50px; /* Pill-shaped button */
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-danger {
+    background-color: #dc3545; /* Bootstrap red */
+    border-color: #dc3545;
+}
+
+.hero-section .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #bd2130;
+}
+
+
+/* Carousel Styling */
+.carousel-item img {
+    border-radius: 8px; /* Slightly rounded corners for carousel images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for text */
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.carousel-caption p {
+    color: #eee;
+}
+
+/* Product Card Styling */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures image corners are rounded */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.product-card .card-img-top {
+    height: 250px; /* Fixed height for consistent image display */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border-bottom: 1px solid #eee;
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.product-card .card-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #2c3e50; /* Dark blue-grey for titles */
+    margin-bottom: 10px;
+}
+
+.product-card .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card .fw-bold {
+    font-size: 1.2rem;
+    color: #dc3545; /* Red price */
+}
+
+.product-card .btn-primary {
+    background-color: #007bff; /* Bootstrap primary blue */
+    border-color: #007bff;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #212529 !important; /* Darker footer */
+    color: #f8f9fa !important;
+    border-top: 3px solid #dc3545; /* Red accent line */
+}
+
+footer a {
+    color: #f8f9fa !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #dc3545 !important;
+}
