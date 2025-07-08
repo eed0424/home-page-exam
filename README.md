@@ -28,7 +28,7 @@ To run this project locally, simply follow these steps:
 1.  **Clone the Repository (if applicable):**
     ```bash
     git clone [repository-url]
-    cd gundamverse-kits
+    cd home-page-exam
     ```
     (If you don't have a repository yet, just make sure `index.html` and `style.css` are in the same folder.)
 
